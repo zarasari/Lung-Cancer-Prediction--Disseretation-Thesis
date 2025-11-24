@@ -1,26 +1,23 @@
-**Lung Cancer Risk Prediction Modelling (MSc Dissertation, University of Sheffield)**
+Lung Cancer Risk Prediction – MSc Project (Short README)
 
-R • Epidemiology • ROC/AUC • Logistic Regression • Risk Modelling
+🟦 Conclusion
+Using clinical data from 879 patients, I found that the Liverpool Lung Project (LLP) model predicts lung cancer risk more accurately than the Bach model.
+The LLP model had a higher AUC (~0.72) versus Bach (~0.60) — largely because it includes family history of lung cancer, a strong predictor confirmed in this dataset.
 
-As part of my **MSc in Statistics with Medical Applications**, I conducted a full end-to-end analysis comparing lung cancer risk prediction models using patient data from the ReSoLuCENT study. This included 879 subjects (516 cases, 363 controls) with 168 variables on smoking, family history, demographics, and environmental exposure.
+🧠 Project Overview
+This project compares two established lung cancer risk prediction models — LLP and Bach — using patient data from the ReSoLuCENT study (168 variables, 879 individuals).
+I used R to:
+Clean and prepare the clinical dataset
+Engineer smoking-related predictors (pack-years, duration, cessation)
+Apply both models to calculate 5-year absolute risk
+Evaluate discriminatory performance using ROC curves and AUC
 
-**What I did:**
+🔧 Tools & Skills
+R programming
+ROC/AUC analysis
+Logistic regression & epidemiology
+Clinical data analysis
+Feature engineering
 
-Applied the Bach and Liverpool Lung Project (LLP) risk models to real patient data.
-Processed and cleaned raw hospital data, including deriving smoking variables (pack-years, cessation duration, cigarettes-per-day) using custom R algorithms (Section 5, pp. 35–42).
-
-Conducted ROC curve and AUC analysis to assess discriminatory power of each model.
-
-Compared sensitivity, specificity, PPV and NPV of both models for 5-year absolute lung cancer risk.
-
-Identified that the LLP model showed better discriminatory performance (AUC = 0.719) compared to Bach (AUC = 0.604) — largely due to the **inclusion of family history** as an important predictor (Results on pages 4–5 and ROC curves on pages 46 & 50).
-
-**Key Findings:**
-
-Family history of lung cancer significantly improves predictive power.
-The LLP model offered better overall discrimination and clinical utility for identifying high-risk individuals.
-Smoking duration and asbestos exposure were strong predictors; passive smoking showed little effect (Section 3.2, pp. 17–24).
-
-**Skills Demonstrated:**
-
-R programming • ROC/AUC analysis • Logistic modelling • Feature engineering • Epidemiological methods • Data visualisation • Handling sensitive clinical data • Statistical reporting
+📁 Summary
+This project shows my ability to handle high-dimensional medical data, apply risk models, and evaluate predictive performance using statistical methods relevant to healthcare analytics and Responsible AI.
