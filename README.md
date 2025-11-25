@@ -1,4 +1,4 @@
-Lung Cancer Risk Prediction – MSc Project (Short README)
+Lung Cancer Risk Prediction – MSc Project
 
 🟦 Conclusion
 
